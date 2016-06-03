@@ -1,0 +1,91 @@
+Anatomy of an HTML element
+  <p class ="greeting" id="main" Hello, World.
+  </p>
+
+css selector
+
+  by element name: p
+  by class name: greeting
+
+  by element name and class name: p.greeting
+  by id: #main
+
+  Select all elements:
+  document.querySelectorAll("p")
+
+  Select one matching element by id:
+  document.querySelector(#main)
+  //we send main and get back a reference
+
+
+DOM
+  Document object model
+  javascript screws with the page using the DOM.
+
+Element contents:
+.innerText
+.innerHTML
+
+
+TODAY
+Goal: Learn about Objects and Functions
+
+Create a list
+Grab the form values<dt> & <dd>
+    for each field
+Add the dl to the field
+Color;
+
+
+
+HOMEWORK:
+Student roster(getfretless.github.io/megaroster)
+
+Form with the following:
+
+Name: $NAME Button:$Add
+
+JORDAN -delete- -promote-
+
+
+
+    var things = {
+        country: 'USA'
+
+    };
+
+    things.animals = ['dogs', 'cat','rhino' ]
+
+
+var field = 'country'
+
+obj = {
+    'zip code': '47401',
+    'country': 'USA'
+
+}
+
+
+obj['zip code']
+obj.country
+
+
+foo.firstName
+foo['firstname']
+
+foo('firstname')
+
+
+
+
+Function Invocation
+
+var thing = {
+    explode: fuction(){
+    //this ==== thing
+    alert('KABOOM')
+    }
+};
+
+
+thing.explode;
